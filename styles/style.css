@@ -9171,6 +9171,9 @@ a {
 .social .box .link {
   margin-bottom: 1rem;
 }
+.social .box a {
+  color: white;
+}
 
 footer {
   font-size: 0.8rem;
