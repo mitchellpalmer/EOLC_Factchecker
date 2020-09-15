@@ -9041,24 +9041,27 @@ a {
   text-decoration: none;
 }
 
-.hero-head {
+header {
   text-align: center;
   padding: 1rem;
   background-color: #47aabf;
   background-image: linear-gradient(141deg, #2ca6a7 0%, #47aabf 71%, #54a3cb 100%);
 }
-.hero-head .brand {
+header .brand {
   font-size: 3rem;
   color: white;
   font-weight: 400;
   line-height: 0.8;
 }
-.hero-head .brand b {
-  color: #e55204;
+header .brand b {
+  color: #430f7c;
   font-weight: 700;
 }
-.hero-head .subbrand {
+header .subbrand {
   color: white;
+}
+header a {
+  text-decoration: none;
 }
 
 .box.myth {
@@ -9185,6 +9188,54 @@ footer {
 footer a {
   color: white;
   text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+main p {
+  margin-top: 1rem;
+}
+main li:before {
+  content: "✓";
+  padding-right: 2rem;
+}
+
+.criteria {
+  background-color: #0e91ae;
+  color: white;
+}
+
+.criteria-ctn .column:nth-of-type(2n) .criteria {
+  background-color: #e55204;
+}
+
+.criteria-ctn .column:nth-of-type(3n) .criteria {
+  background-color: darkgreen;
+}
+
+.criteria-ctn .column:nth-of-type(4n) .criteria {
+  background-color: #430f7c;
+}
+
+.criteria-ctn, .story {
+  margin-top: 1rem;
+}
+
+.story {
+  background-color: #0e91ae;
+  color: white;
+}
+.story a {
+  color: white;
+}
+.story a.button {
+  text-decoration: none;
+}
+.story .title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

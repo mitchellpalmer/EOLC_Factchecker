@@ -39,7 +39,7 @@ a {
 }
 
 
-.hero-head {
+header {
   text-align: center;
   padding: 1rem;
 
@@ -51,7 +51,7 @@ a {
     font-weight: 400;
     line-height: 0.8;
     b {
-      color: $y4c-secondary;
+      color: $pink;
       font-weight: 700;
     }
   }
@@ -59,6 +59,11 @@ a {
   .subbrand {
     color: white;
   }
+
+  a {
+    text-decoration: none;
+  }
+
 }
 
 
@@ -168,6 +173,7 @@ a {
   }
 
 }
+
 .social .box {
   display: flex;
   flex-direction: column;
@@ -202,5 +208,52 @@ footer{
   a {
     color: white;
     text-decoration: underline;
+  }
+}
+
+
+// General Page
+main {
+  padding: 2rem;
+  p {
+    margin-top: 1rem;
+  }
+  li:before {
+    content: '✓';
+    padding-right: 2rem;
+  }
+}
+
+.criteria {
+  background-color: $y4c-primary;
+  color: white;
+}
+.criteria-ctn .column:nth-of-type(2n) .criteria {
+  background-color: $y4c-secondary;
+}
+.criteria-ctn .column:nth-of-type(3n) .criteria {
+  background-color: darkgreen;
+}
+.criteria-ctn .column:nth-of-type(4n) .criteria {
+  background-color: $pink;
+}
+
+.criteria-ctn, .story {
+  margin-top: 1rem;
+}
+
+.story {
+  background-color: $y4c-primary;
+  color: white;
+  a {
+    color: white;
+    &.button {
+      text-decoration: none;
+    }
+  }
+  .title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
   }
 }
